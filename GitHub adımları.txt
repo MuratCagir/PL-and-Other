@@ -16,5 +16,17 @@ cd Desktop --> Cd ile istediğimiz dizine gideriz.
 --İlgili dizini Git Projesi olduğunu belirtmek için
 git init
 
+--Var olan git üzerinden değişiklik yapılmışsa.
+$ git status
+$ git add .
+$ git commit -m "commit mesajı"
+$ git push origin master
+
 --Var olan dosyaları githuba yükleme
 git remote add githubRepo https://github.com/MuratCagir/deneme.git
+
+git remote ile kontrollerimizi sağlıyruz.
+
+Aşağıdaki kod ile githubRepo dosyasındakileri mastera ekle demek.
+git push -u githubRepo master
+
