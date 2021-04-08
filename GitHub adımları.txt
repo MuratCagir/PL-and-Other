@@ -1,0 +1,20 @@
+--Git üzerine kullanıcı adı ve email tanımlama
+git config --global user.name "Murat Çağır"
+git config --global user.email "murat244492@gmail.com"
+
+--Kontrol etmek için
+git config --global user.name
+git config --global user.email
+
+--Kısayollar
+pwd --> Terminalde Mevcut Dizini verir.
+ls --> Dizinde yer alan dosyaları gösteririr.
+ls -a --> Dizinde yer alan gizli dosyaları dahil tüm dosyaları gösteririr.
+
+cd Desktop --> Cd ile istediğimiz dizine gideriz.
+
+--İlgili dizini Git Projesi olduğunu belirtmek için
+git init
+
+--Var olan dosyaları githuba yükleme
+git remote add githubRepo https://github.com/MuratCagir/deneme.git
