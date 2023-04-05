@@ -1,0 +1,5 @@
+﻿DECLARE
+  V_NAME VARCHAR2(100) := 'STG_MIND.BILLING_PERIODS'; -- same unique name for extraction
+BEGIN
+  VODAFONE.ELO.RUN(V_NAME);
+END;
